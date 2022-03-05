@@ -38,7 +38,17 @@ Which Data structure to use:
 4. If asked for top/least K items then
   - USe Heap
 5. Common strings then
-  -Map
-  -Trie
+  - Map
+  - Trie
 6. If asked for all permutaions and sbustes then
   backtracking
+7. Shortest path problem with uniform edge
+  - BFS
+8. Problem which indexing problems or passing information from parent to child
+  - BFS
+9. Recursion/backtracking
+  - Can also use DFS
+10. Tree problems with "nearesr neighbour"
+  - BFS
+11. Negetive and bidirectional edges
+  - DFS
