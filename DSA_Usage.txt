@@ -1,3 +1,5 @@
+Uage of Data Structure:
+
 𝐒𝐭𝐚𝐜𝐤:
 1) UNDO option
 2) Text editor , you push letter by letter to the stack so you erase back.
@@ -24,3 +26,19 @@ Here all the images are stored in queue so its easier to pop from the rear based
 2) Maven dependencies build order ( Topological sorting (DFS))
 3) While booking bus/flights , you get list of available routes.
 4) In Facebook, users are considered to be the vertices and if they are friends then there is an edge running between them. Facebook’s Friend suggestion algorithm uses graph theory. Facebook is an example of undirected graph.
+
+Which Data structure to use:
+1. If the input is sorted then
+  - Binary search
+  - Two pointer
+2. If recursion is banned then
+  - Use stack
+3. If maximum/minimum subarray/subset/options then
+  - Dynamic Programming
+4. If asked for top/least K items then
+  - USe Heap
+5. Common strings then
+  -Map
+  -Trie
+6. If asked for all permutaions and sbustes then
+  backtracking
