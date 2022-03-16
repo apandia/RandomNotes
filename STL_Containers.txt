@@ -1,4 +1,4 @@
-Unordered map:
+Unordered Map:
 ==============
 Unordered maps are associative containers that store elements formed by the combination of a key value and a mapped value, and which allows for fast retrieval of individual elements based on their keys.
 
@@ -16,3 +16,32 @@ map.insert({"Ipsum",50});
 // Traversing an unordered map
 for (auto x : map)
   cout << x.first << " " << x.second << endl;
+  
+Map:
+====
+Strored key value pairs in sorted manner.
+
+say input vector --> vector<int> input{3,4,4,4,4,4,4,1,2,5};
+
+	map<int, int> m;
+	unordered_map<int, int> um;
+
+	for (auto value : arr) {
+		m[value]++;
+		um[value]++;
+	}
+
+Map Output=
+1 1
+2 1
+3 1
+4 6
+5 1
+
+Unordered Map Output=
+3 1
+4 6
+1 1
+2 1
+5 1
+
