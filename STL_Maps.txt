@@ -8,6 +8,10 @@ Strored key value pairs in sorted manner.
 
 Note: In map/unordered_map Keys are unique i.e. duplicate keys are not stored.
 
+Multimap:
+==========
+Same as map but it allows duplicate keys.
+
 Map and Unordered Map example:
 ================================
 say input vector --> vector<int> input{3,4,4,4,4,4,4,1,2,5};
@@ -86,3 +90,5 @@ unordered_map<int, string> um;
 2. access 			--> TC = O(1)
 3. find 			--> TC = O(1)
 4. erase 			--> TC = O(1)
+
+So if order is not important or sorting is not required, the use unordered_map.
