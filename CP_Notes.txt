@@ -1,0 +1,18 @@
+1. Good Books for CP:
+====================
+  i. Guide to competitive programming by springer
+
+2. For faster I/O:
+===================
+use ios_base::sync_with_stdio(false); and cin.tie(NULL); 
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    //Program Code
+    return 0;
+}
