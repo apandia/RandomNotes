@@ -1,3 +1,13 @@
 1. convert all character in a string to either lower case or uppercase
 	transform(str.begin(), str.end(), str.begin(), ::tolower);
 	transform(str.begin(), str.end(), str.begin(), ::toupper);
+	
+2. Initaialize a string with a character which is repeated n times
+   string str(5, 'c')	--->	str = "ccccc"
+   
+3. String to int
+   for (char c = '1'; c <= '9'; ++c)
+   {
+	  cout<<stoi(string(3, c));
+   }
+   output: 111 222 333 444 555 666 777 888 999
